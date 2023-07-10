@@ -1,40 +1,47 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: blue
+align-content: center
+
+-- ftd.row:
+-- card:
+-- card:Hyderbad
+ 
+--hyderabad is a mkjor city
+
+-- end: ftd.row
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- end: ftd.column
+-- component card:
+caption title: Golconda
+body description:  A major center for the technology industry, it's home to many upscale restaurants and shops.
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- ftd.row:
+width.fixed.px: 550
+height.fixed.px: 250
+background.solid: cyan
+border-width.px: 3
+spacing.fixed.px: 50
+padding.px: 20
+border-radius.px: 20
 
--- ds.h3: 🚀 Fast Track 
+-- ftd.image:
+src: https://th.bing.com/th/id/R.d2c778e4f07b708d754128f414da4012?rik=faiMc8IUCJTP1w&riu=http%3a%2f%2fwww.beautifulglobal.com%2fwp-content%2fuploads%2f2015%2f05%2fCharminar-Monument-And-Mosque-Hyderabad-Telangana-India-1.jpg&ehk=2zygUobWAJMuuTQ%2b9b5u2u%2bgt31PZaKWz1oblo%2fxkb4%3d&risl=&pid=ImgRaw&r=0
+height: fill-container
+border-radius.px: 20
+-- ftd.column:
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: $card.description
+role: $inherited.types.copy-regular
 
 
--- ds.h3: 🎯 Used by?
+-- end: ftd.column
+-- end: ftd.row
+-- end: card
 
-Our all documentation sites uses this `doc-site` theme.
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
